@@ -1,0 +1,25 @@
+{
+  "name": "skill-up-express-project",
+  "version": "0.0.1",
+  "author": "A.P.I.",
+  "description": "express skill up project",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.3.7",
+    "nodemon": "^1.18.5"
+  },
+  "scripts": {
+    "watch": "nodemon --experimental-modules start.mjs",
+    "prettier": "prettier --single-quote --trailing-comma es5 --write \"{app,__{tests,mocks}__}/**/*.js\""
+  },
+  "devDependencies": {
+    "prettier": "1.14.3"
+  }
+}
